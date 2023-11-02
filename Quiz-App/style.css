@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #BD4F6C;
+    margin: 0;
+    font-family: "Sigmar", sans-serif;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    border-radius: 10px;
+    margin-top: 250px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.quiz-container ul {
+    list-style: none;
+}
+
+.quiz-container ul li {
+    margin: 1rem 0;
+    font-size: 1.3rem;
+}
+
+.quiz-container ul li label {
+    cursor: pointer;
+}
+
+.quiz-header {
+    padding: 2rem;
+}
+
+button {
+    background-color: #654E92;
+    width: 100%;
+    padding: 1rem;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    display: block;
+    cursor: pointer;
+}
+
+.question {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}

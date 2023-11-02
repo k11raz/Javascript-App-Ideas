@@ -1,0 +1,57 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Sigmar", sans-serif;
+    background-color: #6C9BCF;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notes {
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+
+.notes .tools {
+    background-color: #EBD8B2;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.notes .tools button {
+    color: #fff;
+    background-color: #6C9BCF;
+    border: none;
+    margin-left: 1rem;
+    padding: 0.4rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.notes textarea {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
